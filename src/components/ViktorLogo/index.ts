@@ -1,0 +1,2 @@
+export { ViktorLogo } from './ViktorLogo';
+

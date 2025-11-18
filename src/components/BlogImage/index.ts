@@ -1,0 +1,2 @@
+export { BlogImage } from './BlogImage';
+
