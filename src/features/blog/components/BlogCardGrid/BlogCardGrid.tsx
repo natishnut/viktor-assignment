@@ -111,7 +111,7 @@ export function BlogCardGrid({ post, onClick }: BlogCardGridProps) {
           </Box>
         )}
 
-        {blogpost_categories?.length > 0 && (
+        {blogpost_categories && blogpost_categories.length > 0 && (
           <CategoryChips categories={blogpost_categories} />
         )}
       </CardContent>

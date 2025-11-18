@@ -52,7 +52,7 @@ export function BlogCard({ post, onClick }: BlogCardProps) {
           {formatDate(publication_date)}
         </Typography>
 
-        {blogpost_categories?.length > 0 && (
+        {blogpost_categories && blogpost_categories.length > 0 && (
           <Box sx={{ mb: 1.5 }}>
             <CategoryChips categories={blogpost_categories} />
           </Box>
